@@ -127,6 +127,7 @@ public class CombateAFraudeModule extends ReactContextBaseJavaModule {
     public void documentDetector(String mobileToken, String documentType) {
         try {
             DocumentDetector.Builder documentDetectorBuilder = new DocumentDetector.Builder(mobileToken);
+            documentDetectorBuilder.showPreview(true, null, null, null, null);
 
             if (documentType.equals("CNH")){
                 documentDetectorBuilder.setDocumentSteps(new DocumentDetectorStep[]{

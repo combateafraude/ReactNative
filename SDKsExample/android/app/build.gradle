@@ -195,8 +195,8 @@ dependencies {
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
-    implementation 'com.combateafraude.sdk:passive-face-liveness:4.1.4'
-    implementation 'com.combateafraude.sdk:document-detector:6.1.4'
+    implementation 'com.combateafraude.sdk:passive-face-liveness:4.6.2'
+    implementation 'com.combateafraude.sdk:document-detector:6.6.1'
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
       exclude group:'com.facebook.fbjni'

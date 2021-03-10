@@ -19,7 +19,6 @@ const App: () => React$Node = () => {
       combateAFraudeEmmiter.addListener(
         "PassiveFaceLiveness_Success",
         res => {
-          console.log('p');
           setPassiveFaceLivenessResult("Selfie: "+res.imagePath);
         }
       )
@@ -42,7 +41,6 @@ const App: () => React$Node = () => {
         "DocumentDetector_Success",
         
         res => {
-          console.log('a');
           setDocumentDetectorResult("Frente: "+res.captures[0].imagePath+"\nVerso: "+res.captures[1].imagePath);
         }
       )
