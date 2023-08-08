@@ -7,4 +7,4 @@
 
 <hr>
 
-- [Documentação](https://docs.combateafraude.com/docs/mobile/react-native/getting-started/)
+- [Documentação](https://docs.caf.io/sdks/react-native/getting-started)
